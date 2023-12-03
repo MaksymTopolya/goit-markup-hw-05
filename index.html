@@ -392,6 +392,7 @@
         </div>
     </div>
     </footer>
+
 <div class="backdrop is-open">
     <div class="modal">
         <button class="modal-close-button">
@@ -435,22 +436,22 @@
                 <textarea class="reviev-form-comment" name="user-comment" id="user-comment" placeholder="Text input" required></textarea>
             </div>
             <div class="reviev-form-checkbox-wrapper">
-                <input type="checkbox" class="reviev-form-checkbox" name="checkbox" id="checkbox" required value="true">
-                <label class="reviev-form-checkbox-label" for="checkbox">I accept the terms and conditions of the <a href="" class="Privacy-Policy">Privacy Policy</a></label>
+                <input type="checkbox" class="reviev-form-checkbox visually-hidden" name="checkbox" id="checkbox" required value="true">
+                <label class="reviev-form-checkbox-label" for="checkbox"> 
+
+                    <span class="my-own-checkbox">
+                        <svg class="my-own-icon-box" width="16" height="16" aria-label="click-icon">
+                            <use href="./images/icons.svg#icon-Property-1click"></use>
+                        </svg>
+                    </span>
+                    
+                    I accept the terms and conditions of the 
+                    <a href="" class="Privacy-Policy">Privacy Policy</a>
+                </label>
             </div>
             <button type="submit" class="send-button">Send</button>
         </form>
-        
-
-
-
-
-
     </div>
 </div>
-
-
-
-
 </body>
 </html>
